@@ -11,7 +11,7 @@ RUN apt-get update -qq && \
 RUN curl -O -fsSL https://download.docker.com/linux/debian/gpg
 RUN apt-key add gpg
 
-RUN curl -fsSL https://deb.nodesource.com/setup_14.x | bash -
+RUN curl -fsSL https://deb.nodesource.com/setup_16.x | bash -
 RUN apt-get install -y nodejs
 
 RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add - \
