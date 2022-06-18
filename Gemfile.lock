@@ -312,6 +312,7 @@ DEPENDENCIES
   debug
   dotenv-rails
   factory_bot_rails
+  faraday
   importmap-rails
   jbuilder
   omniauth-auth0 (~> 3.0)

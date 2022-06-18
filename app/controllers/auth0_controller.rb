@@ -9,6 +9,7 @@ class Auth0Controller < ApplicationController
   end
 
   def failure
+    @error_msg = request.params['message']
   end
 
   def logout
